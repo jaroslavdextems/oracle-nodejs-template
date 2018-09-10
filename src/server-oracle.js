@@ -16,7 +16,7 @@ module.exports = {
                         connectString: Config.connectString
                     })
                     .then(function (connection) {
-                        return connection.execute(query, [Config.oracleDBTimeout])
+                        return connection.execute(query)
                             .then(function (data) {
                                 connection.close();
                                 resolve (data)
