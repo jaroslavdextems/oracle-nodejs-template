@@ -12,6 +12,6 @@ docker run \
     --name "oracle-node-template" \
     -e NODE_ORACLEDB_USER="<your-username>" \
     -e NODE_ORACLEDB_PASSWORD="<your-password>" \
-    -e NODE_ORACLEDB_CONNECTIONSTRING=<your-server>:<your-port-usual-1521>/<your-service-name>" \
+    -e NODE_ORACLEDB_CONNECTIONSTRING="<your-server>:<your-port-usual-1521>/<your-service-name>" \
 oracle-node-template:latest
 ```
