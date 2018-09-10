@@ -1,5 +1,6 @@
 const express = require('express')
 const oracleDB = require('./server-oracle') // get oracledb utils
+const es = require('./server-es') // get elasticsearch utils
 
 const app = express()
 
