@@ -1,4 +1,4 @@
-FROM stolyarenko/docker-node-oracle:12.1
+FROM stolyarenko/docker-node-oracle:12.2-alpine
 
 WORKDIR /usr/src/app
 
